@@ -43,7 +43,7 @@ class NumberAccessor {
 let accessor = NumberAccessor(numbers: [1, 2, 3])
 accessor.addNumber(4)
 print(accessor.getNumbers())  // Output: [1, 2, 3, 4]
-//accessor.subtractNumber(2)
+print(accessor.subtractNumber(2))
 print(accessor.getNumbers())  // Output: [1, 3, 4]
 print("Sum: \(accessor.sum())")  // Output: Sum: 8
 print("Product: \(accessor.product())")  // Output: Product: 12
