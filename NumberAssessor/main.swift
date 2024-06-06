@@ -47,3 +47,4 @@ accessor.subtractNumber(2)
 print(accessor.getNumbers())  // Output: [1, 3, 4]
 print("Sum: \(accessor.sum())")  // Output: Sum: 8
 print("Product: \(accessor.product())")  // Output: Product: 12
+print("end of run")
